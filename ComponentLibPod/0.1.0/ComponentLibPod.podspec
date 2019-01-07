@@ -34,6 +34,14 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'ComponentLibPod/Classes/*'
   
+  s.subspec "Category" do |ss|
+      ss.source_files = "ComponentLibPod/Classes/Category/**"
+  end
+  
+  s.subspec "Marquee" do |ss|
+      ss.source_files = "ComponentLibPod/Classes/Marquee/**"
+  end
+  
   # s.resource_bundles = {
   #   'ComponentLibPod' => ['ComponentLibPod/Assets/*.png']
   # }
