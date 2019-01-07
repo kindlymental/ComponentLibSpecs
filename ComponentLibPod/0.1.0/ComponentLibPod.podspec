@@ -32,22 +32,17 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '8.0'
 
-  s.source_files = 'ComponentLibPod/Classes/*'
+  s.source_files = 'ComponentLibPod/Classes/*.swift'
   
-  s.subspec "Category" do |ss|
-      ss.source_files = "ComponentLibPod/Classes/Category/*"
-  end
-  
-  s.subspec "Marquee" do |ss|
-      ss.source_files = "ComponentLibPod/Classes/Marquee/*"
-  end
-  
+  # s.subspec "Category" do |ss|
+  #     ss.source_files = "ComponentLibPod/Classes/Category/*.swift"
+  # end
 
   # s.resource_bundles = {
   #   'ComponentLibPod' => ['ComponentLibPod/Assets/*.png']
   # }
 
-  s.public_header_files = 'ComponentLibPod/Classes/*'
+  # s.public_header_files = 'ComponentLibPod/Classes/*'
   
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
